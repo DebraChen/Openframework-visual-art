@@ -1,0 +1,55 @@
+Last login: Thu Mar  3 20:54:05 on ttys001
+/Users/chenyuwei/Documents/anaconda3/bin/jupyter_mac.command ; exit;
+(base) chenyuwei@pc-15-134 ~ % /Users/chenyuwei/Documents/anaconda3/bin/jupyter_mac.command ; exit;
+[I 17:43:06.533 NotebookApp] Writing notebook server cookie secret to /Users/chenyuwei/Library/Jupyter/runtime/notebook_cookie_secret
+[I 2022-03-04 17:43:07.973 LabApp] JupyterLab extension loaded from /Users/chenyuwei/Documents/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2022-03-04 17:43:07.974 LabApp] JupyterLab application directory is /Users/chenyuwei/Documents/anaconda3/share/jupyter/lab
+[I 17:43:07.994 NotebookApp] The port 8888 is already in use, trying another port.
+[I 17:43:07.994 NotebookApp] The port 8889 is already in use, trying another port.
+[I 17:43:07.995 NotebookApp] The port 8890 is already in use, trying another port.
+[I 17:43:07.996 NotebookApp] The port 8891 is already in use, trying another port.
+[I 17:43:07.997 NotebookApp] Serving notebooks from local directory: /Users/chenyuwei
+[I 17:43:07.997 NotebookApp] Jupyter Notebook 6.4.5 is running at:
+[I 17:43:07.997 NotebookApp] http://localhost:8892/?token=0e4b28ebcf5f18a4ee04371484560472a98fc7d08518b8bf
+[I 17:43:07.997 NotebookApp]  or http://127.0.0.1:8892/?token=0e4b28ebcf5f18a4ee04371484560472a98fc7d08518b8bf
+[I 17:43:07.997 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:43:08.273 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/chenyuwei/Library/Jupyter/runtime/nbserver-15350-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/?token=0e4b28ebcf5f18a4ee04371484560472a98fc7d08518b8bf
+     or http://127.0.0.1:8892/?token=0e4b28ebcf5f18a4ee04371484560472a98fc7d08518b8bf
+
+  [Restored Mar 17, 2022 at 12:20:54 PM]
+Last login: Tue Mar 15 17:39:56 on console
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % 
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clone https://github.com/tensorflow/models/tree/master/research
+Cloning into 'research'...
+fatal: repository 'https://github.com/tensorflow/models/tree/master/research/' not found
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clone https://github.com/tensorflow/models
+Cloning into 'models'...
+remote: Enumerating objects: 70382, done.
+remote: Total 70382 (delta 0), reused 0 (delta 0), pack-reused 70382
+Receiving objects: 100% (70382/70382), 578.38 MiB | 4.86 MiB/s, done.
+Resolving deltas: 100% (49675/49675), done.
+Updating files: 100% (3242/3242), done.
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % cd models
+(base) chenyuwei@chenyuweideMacBook-Pro models % cd research
+(base) chenyuwei@chenyuweideMacBook-Pro research % protoc object_detection/protos/*.proto --python_out=.
+zsh: command not found: protoc
+(base) chenyuwei@chenyuweideMacBook-Pro research % copy object_detection/packages/tf2/setup.py .
+zsh: command not found: copy
+(base) chenyuwei@chenyuweideMacBook-Pro research % protoc object_detection/protos/*.proto --python_out=.
+
+zsh: command not found: protoc
+(base) chenyuwei@chenyuweideMacBook-Pro research % protoc object_detection/protos/*.proto --python_out=.
+zsh: command not found: protoc
+(base) chenyuwei@chenyuweideMacBook-Pro research % cd protoc object_detection/protos/*.proto --python_out=.
+cd: too many arguments
+(base) chenyuwei@chenyuweideMacBook-Pro research % cd protoc
+cd: no such file or directory: protoc
+(base) chenyuwei@chenyuweideMacBook-Pro research % brew install protobuf
+zsh: command not found: brew
+(base) chenyuwei@chenyuweideMacBook-Pro research % PB_REL=“https://github.com/protocolbuffers/protobuf/releases
+(base) chenyuwei@chenyuweideMacBook-Pro research % 

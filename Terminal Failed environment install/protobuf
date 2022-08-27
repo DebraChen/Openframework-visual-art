@@ -1,0 +1,21 @@
+Last login: Thu Mar 17 15:09:07 on ttys006
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % sudo pip3 install labelmg
+Password:
+WARNING: The directory '/Users/chenyuwei/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+ERROR: Could not find a version that satisfies the requirement labelmg (from versions: none)
+ERROR: No matching distribution found for labelmg
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % python3
+Python 3.9.7 (default, Sep 16 2021, 08:50:36) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pip3 install labelImg
+  File "<stdin>", line 1
+    pip3 install labelImg
+         ^
+SyntaxError: invalid syntax
+>>> pip install protobuf
+  File "<stdin>", line 1
+    pip install protobuf
+        ^
+SyntaxError: invalid syntax
+>>> 

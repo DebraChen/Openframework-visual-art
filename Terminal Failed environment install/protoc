@@ -1,0 +1,19 @@
+Last login: Thu Mar 17 12:20:54 on ttys002
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % ./configure --prefix=/usr/local/protobuf
+zsh: no such file or directory: ./configure
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % ./configure --prefix=/usr/local/protoc 
+zsh: no such file or directory: ./configure
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % tar -xzvf protoc
+tar: Error opening archive: Failed to open 'protoc'
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % brew search protobuf
+zsh: command not found: brew
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % search protoc
+zsh: command not found: search
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % cf protoc
+zsh: command not found: cf
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % cd protoc
+cd: no such file or directory: protoc
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clone https://
+
+
+

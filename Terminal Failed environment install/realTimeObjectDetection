@@ -1,0 +1,46 @@
+Last login: Thu Mar 16 12:51:05 on ttys003
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clonehttps://github.com/nicknochnack/RealTimeObjectDetection
+git: 'clonehttps://github.com/nicknochnack/RealTimeObjectDetection' is not a git command. See 'git --help'.
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clone https://github.com/nicknochnack/RealTimeObjectDetection
+Cloning into 'RealTimeObjectDetection'...
+remote: Enumerating objects: 27, done.
+remote: Total 27 (delta 0), reused 0 (delta 0), pack-reused 27
+Unpacking objects: 100% (27/27), done.
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % git clone https://github.com/tzutalin/labelImg
+Cloning into 'labelImg'...
+remote: Enumerating objects: 1975, done.
+remote: Counting objects: 100% (214/214), done.
+remote: Compressing objects: 100% (145/145), done.
+remote: Total 1975 (delta 115), reused 132 (delta 61), pack-reused 1761
+Receiving objects: 100% (1975/1975), 232.85 MiB | 1.62 MiB/s, done.
+Resolving deltas: 100% (1162/1162), done.
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % conda install pyqt=5
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/chenyuwei/Documents/anaconda3
+
+  added / updated specs:
+    - pyqt=5
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-4.12.0               |   py39hecd8cb5_0        14.5 MB
+    ------------------------------------------------------------
+                                           Total:        14.5 MB
+
+The following packages will be UPDATED:
+
+  conda                               4.10.3-py39hecd8cb5_0 --> 4.12.0-py39hecd8cb5_0
+
+
+Proceed ([y]/n)? conda install pyqt=5
+Invalid choice: conda install pyqt=5
+Proceed ([y]/n)? conda install -c anaconda lxml
+Invalid choice: conda install -c anaconda lxml
+Proceed ([y]/n)? 

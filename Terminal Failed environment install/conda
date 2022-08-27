@@ -1,0 +1,27 @@
+Last login: Thu Mar 17 14:18:24 on ttys004
+(base) chenyuwei@chenyuweideMacBook-Pro ~ % conda install pyqt=5
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/chenyuwei/Documents/anaconda3
+
+  added / updated specs:
+    - pyqt=5
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-4.12.0               |   py39hecd8cb5_0        14.5 MB
+    ------------------------------------------------------------
+                                           Total:        14.5 MB
+
+The following packages will be UPDATED:
+
+  conda                               4.10.3-py39hecd8cb5_0 --> 4.12.0-py39hecd8cb5_0
+
+
+Proceed ([y]/n)? 
